@@ -11,6 +11,6 @@ public class PlayerActions : MonoBehaviour
     {
         number = Mathf.MoveTowards(number, target, 0.5f * Time.deltaTime);
         if (number == 1) return;
-        Debug.Log("Moving. Current number:" + number);
+        // Debug.Log("Moving. Current number:" + number);
     }
 }
